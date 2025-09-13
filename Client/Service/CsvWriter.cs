@@ -27,13 +27,13 @@ namespace Service
         public void WriteMeasurement(string line)
         {
             measurementWriter.WriteLine(line);
-            measurementWriter.Close();
+            measurementWriter.Flush();
         }
 
         public void WriteRejects(string line)
         {
             rejectsWriter.WriteLine(line);
-            rejectsWriter.Close();
+            rejectsWriter.Flush();
         }
 
         public void Dispose()
