@@ -11,7 +11,7 @@ namespace Service
     public class SmartGridService : ISmartGridService
     {
         private bool sessionActive = false;
-
+        private CsvWriter fileWriter;
         public string StartSession(SmartGridSample meta)
         {
             if(meta == null)
@@ -21,6 +21,8 @@ namespace Service
 
             ValidateSample(meta);
 
+            fileWriter = new CsvWriter("session1");
+
             sessionActive = true;
             Console.WriteLine($"[INFO] Session started at {meta.Timestamp}");
             return "ACK: Session started";
@@ -28,7 +30,6 @@ namespace Service
 
         public string PushSample(SmartGridSample sample)
         {
-
             if (!sessionActive)
                 return "NACK: No active session!";
 
@@ -39,16 +40,19 @@ namespace Service
 
             ValidateSample(sample);
 
-            Console.WriteLine($"[DATA] {sample.Timestamp} V={sample.Voltage}, I={sample.Current}, F={sample.Frequency}");
+            fileWriter.WriteMeasurement($"[DATA] {sample.Timestamp} V={sample.Voltage}, I={sample.Current}, F={sample.Frequency}");
             return "ACK: Sample received";
         }
 
         public string EndSession()
         {
-            if (!sessionActive)
+            if (!sessionActive) 
                 return "NACK: No active session!";
 
             sessionActive = false;
+
+            fileWriter.Dispose();
+            fileWriter = null;
             Console.WriteLine("[INFO] Session ended");
             return "ACK: Session completed";
         }
