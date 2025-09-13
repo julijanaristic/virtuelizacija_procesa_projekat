@@ -11,15 +11,16 @@ namespace Common
     public interface ISmartGridService
     {
         [OperationContract]
-        [FaultContract(typeof(CustomException))]
-        bool StartSession(SmartGridSample meta);
+        [FaultContract(typeof(DataFormatFault))]
+        [FaultContract(typeof(ValidationFault))]
+        string StartSession(SmartGridSample meta);
 
         [OperationContract]
-        [FaultContract(typeof(CustomException))]
-        bool PushSample(SmartGridSample sample);
+        [FaultContract(typeof(DataFormatFault))]
+        [FaultContract(typeof(ValidationFault))]
+        string PushSample(SmartGridSample sample);
 
         [OperationContract]
-        [FaultContract(typeof(CustomException))]
-        bool EndSession();
+        string EndSession();
     }
 }

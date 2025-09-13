@@ -8,15 +8,25 @@ using System.Threading.Tasks;
 namespace Common
 {
     [DataContract]
-    public class CustomException
+    public class DataFormatFault
     {
-        string message;
-        public CustomException(string message)
-        {
-            this.message = message;
-        }
-
         [DataMember]
-        public string Message { get => message; set => message = value; }
+        public string Message { get; set; }
+        public DataFormatFault(string message) 
+        {
+            Message = message;
+        }
+    }
+
+    [DataContract]
+    public class ValidationFault
+    {
+        [DataMember]
+        public string Message { get; set; }
+
+        public ValidationFault(string message)
+        {
+            Message = message;
+        }
     }
 }
