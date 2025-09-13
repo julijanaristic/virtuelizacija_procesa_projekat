@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -41,41 +42,50 @@ namespace Client
             }
         }
 
-        public (List<string[]> samples, List<string> rejects) ReadSamples(int maxRows = 100)
+        public (List<SmartGridSample> samples, List<string> rejects) ReadSamples(int maxRows = 100)
         {
-            var results = new List<string[]>();
+            var results = new List<SmartGridSample>();
             var rejects = new List<string>();
 
             int rowCount = 0;
             string line;
 
-            while((line = textReader.ReadLine()) != null)
+            textReader.ReadLine();
+
+            while ((line = textReader.ReadLine()) != null)
             {
                 string[] columns = line.Split(',');
 
-                if(columns.Length != 6)
+                if (columns.Length < 6)
                 {
                     rejects.Add(line);
                     continue;
                 }
 
-                if (!double.TryParse(columns[1], NumberStyles.Float, CultureInfo.InvariantCulture, out _) ||
-                    !double.TryParse(columns[2], NumberStyles.Float, CultureInfo.InvariantCulture, out _) ||
-                    !double.TryParse(columns[3], NumberStyles.Float, CultureInfo.InvariantCulture, out _) ||
-                    !double.TryParse(columns[5], NumberStyles.Float, CultureInfo.InvariantCulture, out _))
+                try
+                {
+                    DateTime timestamp = DateTime.Parse(columns[0], CultureInfo.InvariantCulture);
+                    double voltage = double.Parse(columns[1], CultureInfo.InvariantCulture);
+                    double current = double.Parse(columns[2], CultureInfo.InvariantCulture);
+                    double powerUsage = double.Parse(columns[3], CultureInfo.InvariantCulture);
+                    double frequency = double.Parse(columns[4], CultureInfo.InvariantCulture);
+                    bool faultIndicator = int.Parse(columns[5], CultureInfo.InvariantCulture) != 0;
+
+                    if(rowCount < maxRows)
+                    {
+                        results.Add(new SmartGridSample(timestamp, voltage, current, powerUsage, faultIndicator, frequency));
+                        rowCount++;
+                    }
+                    else
+                    {
+                        rejects.Add(line);
+                    }
+                }
+                catch
                 {
                     rejects.Add(line);
-                    continue;
                 }
 
-                if(rowCount < maxRows)
-                {
-                    results.Add(columns);
-                    rowCount++;
-                } else
-                {
-                    rejects.Add(line);
-                }
             }
             return (results, rejects);
         }

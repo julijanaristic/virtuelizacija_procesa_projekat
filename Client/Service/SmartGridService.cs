@@ -2,6 +2,7 @@
 using Microsoft.SqlServer.Server;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.ServiceModel;
 using System.Text;
@@ -39,6 +40,8 @@ namespace Service
             {
                 throw new FaultException<DataFormatFault>(new DataFormatFault("Sample is null"));
             }
+
+            Console.WriteLine("[INFO] transmission in progress");
 
             string line = $"{sample.Timestamp},{sample.Voltage},{sample.Current},{sample.PowerUsage}, {sample.FaultIndicator},{sample.Frequency}";
             bool valid = TryValidateSample(sample, out string error);
