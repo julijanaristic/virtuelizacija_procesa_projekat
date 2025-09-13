@@ -16,6 +16,7 @@ namespace Service
         public CsvWriter(string path)
         {
             Directory.CreateDirectory(path);
+            Console.WriteLine(Path.GetFullPath(path));
             measurementWriter = new StreamWriter(Path.Combine(path, "measurements_session.csv"), append: true);
             rejectsWriter = new StreamWriter(Path.Combine(path, "rejects.csv"), append: true);
         }

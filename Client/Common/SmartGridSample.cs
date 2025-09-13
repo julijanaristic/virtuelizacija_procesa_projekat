@@ -14,12 +14,12 @@ namespace Common
         public double voltage;
         public double current;
         public double powerUsage;
-        public bool faultIndicator;
+        public int faultIndicator;
         public double frequency;
 
-        public SmartGridSample() : this(new DateTime(), 0, 0, 0, false, 0) { }
+        public SmartGridSample() : this(new DateTime(), 0, 0, 0, 0, 0) { }
 
-        public SmartGridSample(DateTime timestamp, double voltage, double current, double powerUsage, bool faultIndicator, double frequency)
+        public SmartGridSample(DateTime timestamp, double voltage, double current, double powerUsage, int faultIndicator, double frequency)
         {
             this.timestamp = timestamp;
             this.voltage = voltage;
@@ -38,7 +38,7 @@ namespace Common
         [DataMember]
         public double PowerUsage { get; set; }
         [DataMember]
-        public bool FaultIndicator { get; set; }
+        public int FaultIndicator { get; set; }
         [DataMember]
         public double Frequency { get; set; }
 

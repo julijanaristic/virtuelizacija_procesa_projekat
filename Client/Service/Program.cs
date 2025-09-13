@@ -11,6 +11,14 @@ namespace Service
     {
         static void Main(string[] args)
         {
+            SmartGridService smartGridService = new SmartGridService();
+
+            //pretplata za dogadjaje
+            smartGridService.OnTransferStarted += () => Console.WriteLine("Session started.");
+            smartGridService.OnSampleReceived += (sample) => Console.WriteLine($"Sample primljen: {sample.Timestamp}");
+            smartGridService.OnWarningRaised += (message, sample) => Console.WriteLine($"WARNING: {message}, Current={sample.Current}, Voltage={sample.Voltage}");
+            smartGridService.OnTransferCompleted += () => Console.WriteLine("Session completed.");
+
             ServiceHost host = new ServiceHost(typeof(SmartGridService));
             host.Open();
 

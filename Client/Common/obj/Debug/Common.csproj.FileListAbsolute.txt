@@ -1,0 +1,6 @@
+C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Common\bin\Debug\Common.dll
+C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Common\bin\Debug\Common.pdb
+C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Common\obj\Debug\Common.dll
+C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Common\obj\Debug\Common.pdb

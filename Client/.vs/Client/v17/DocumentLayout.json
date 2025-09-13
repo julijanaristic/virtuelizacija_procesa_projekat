@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\",
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|c:\\users\\korisnik\\documents\\github\\virtuelizacija_procesa_projekat\\client\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|c:\\users\\korisnik\\documents\\github\\virtuelizacija_procesa_projekat\\client\\service\\smartgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|solutionrelative:service\\smartgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|solutionrelative:service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|c:\\users\\korisnik\\onedrive\\desktop\\virtuelizacija_procesa_projekat\\client\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\service\\csvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|solutionrelative:service\\csvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\client\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|solutionrelative:client\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\common\\smartgridsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|solutionrelative:common\\smartgridsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\common\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|solutionrelative:common\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\service\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\service\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|solutionrelative:service\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\common\\ismartgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|solutionrelative:service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\service\\smartgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|solutionrelative:service\\smartgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\client\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD1DC12E-5EEE-4EE0-A66E-008D14D021E8}|Client\\Client.csproj|solutionrelative:client\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\service\\csvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D237057-7BFF-4CD8-92FF-CBF8446F419E}|Service\\Service.csproj|solutionrelative:service\\csvwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\common\\smartgridsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|solutionrelative:common\\smartgridsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\common\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|solutionrelative:common\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\common\\ismartgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F4350A-A296-44F5-9724-4A008FFB7B94}|Common\\Common.csproj|solutionrelative:common\\ismartgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,134 +50,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "Client\\Program.cs",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Client\\Program.cs",
-              "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T20:30:37.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Service\\Program.cs",
-              "RelativeDocumentMoniker": "Service\\Program.cs",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Service\\Program.cs",
-              "RelativeToolTip": "Service\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T15:06:52.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SmartGridService.cs",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Service\\SmartGridService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Service\\SmartGridService.cs",
               "RelativeDocumentMoniker": "Service\\SmartGridService.cs",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Service\\SmartGridService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Service\\SmartGridService.cs",
               "RelativeToolTip": "Service\\SmartGridService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCsAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAYwKUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T14:58:29.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Client\\App.config",
-              "RelativeDocumentMoniker": "Client\\App.config",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Client\\App.config",
-              "RelativeToolTip": "Client\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-13T19:02:09.892Z",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Service\\Program.cs",
+              "RelativeDocumentMoniker": "Service\\Program.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Service\\Program.cs",
+              "RelativeToolTip": "Service\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T15:06:52.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CsvWriter.cs",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Service\\CsvWriter.cs",
-              "RelativeDocumentMoniker": "Service\\CsvWriter.cs",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Service\\CsvWriter.cs",
-              "RelativeToolTip": "Service\\CsvWriter.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Service\\App.config",
+              "RelativeDocumentMoniker": "Service\\App.config",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Service\\App.config",
+              "RelativeToolTip": "Service\\App.config",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-13T15:06:35.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T18:38:57.839Z",
+              "WhenOpened": "2025-09-13T20:30:37.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CsvReader.cs",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Client\\CsvReader.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Client\\CsvReader.cs",
               "RelativeDocumentMoniker": "Client\\CsvReader.cs",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Client\\CsvReader.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Client\\CsvReader.cs",
               "RelativeToolTip": "Client\\CsvReader.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADwv14AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T19:02:43.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SmartGridSample.cs",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Common\\SmartGridSample.cs",
-              "RelativeDocumentMoniker": "Common\\SmartGridSample.cs",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Common\\SmartGridSample.cs",
-              "RelativeToolTip": "Common\\SmartGridSample.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T19:07:04.747Z",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Client\\App.config",
+              "RelativeDocumentMoniker": "Client\\App.config",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Client\\App.config",
+              "RelativeToolTip": "Client\\App.config",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-13T19:02:09.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ISmartGridService.cs",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Common\\ISmartGridService.cs",
-              "RelativeDocumentMoniker": "Common\\ISmartGridService.cs",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Common\\ISmartGridService.cs",
-              "RelativeToolTip": "Common\\ISmartGridService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CsvWriter.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Service\\CsvWriter.cs",
+              "RelativeDocumentMoniker": "Service\\CsvWriter.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Service\\CsvWriter.cs",
+              "RelativeToolTip": "Service\\CsvWriter.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T15:01:12.442Z"
+              "WhenOpened": "2025-09-13T18:38:57.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "SmartGridSample.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Common\\SmartGridSample.cs",
+              "RelativeDocumentMoniker": "Common\\SmartGridSample.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Common\\SmartGridSample.cs",
+              "RelativeToolTip": "Common\\SmartGridSample.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T19:07:04.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CustomException.cs",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Common\\CustomException.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Common\\CustomException.cs",
               "RelativeDocumentMoniker": "Common\\CustomException.cs",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Common\\CustomException.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Common\\CustomException.cs",
               "RelativeToolTip": "Common\\CustomException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T15:12:07.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Service\\App.config",
-              "RelativeDocumentMoniker": "Service\\App.config",
-              "ToolTip": "C:\\Users\\KorisniK\\Documents\\GitHub\\virtuelizacija_procesa_projekat\\Client\\Service\\App.config",
-              "RelativeToolTip": "Service\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-13T15:06:35.242Z"
+              "DocumentIndex": 9,
+              "Title": "ISmartGridService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Common\\ISmartGridService.cs",
+              "RelativeDocumentMoniker": "Common\\ISmartGridService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\virtuelizacija_procesa_projekat\\Client\\Common\\ISmartGridService.cs",
+              "RelativeToolTip": "Common\\ISmartGridService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T15:01:12.442Z"
             }
           ]
         }

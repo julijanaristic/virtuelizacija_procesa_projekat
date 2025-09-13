@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -50,7 +51,7 @@ namespace Client
             int rowCount = 0;
             string line;
 
-            textReader.ReadLine();
+            textReader.ReadLine(); //preskoci header
 
             while ((line = textReader.ReadLine()) != null)
             {
@@ -62,18 +63,44 @@ namespace Client
                     continue;
                 }
 
+
+
                 try
                 {
-                    DateTime timestamp = DateTime.Parse(columns[0], CultureInfo.InvariantCulture);
-                    double voltage = double.Parse(columns[1], CultureInfo.InvariantCulture);
-                    double current = double.Parse(columns[2], CultureInfo.InvariantCulture);
-                    double powerUsage = double.Parse(columns[3], CultureInfo.InvariantCulture);
-                    double frequency = double.Parse(columns[4], CultureInfo.InvariantCulture);
-                    bool faultIndicator = int.Parse(columns[5], CultureInfo.InvariantCulture) != 0;
+                    DateTime timestamp;
+                    bool timestampOk = DateTime.TryParseExact(
+                        columns[0].Trim(),
+                        "yyyy-MM-dd HH:mm:ss",
+                        CultureInfo.InvariantCulture,
+                        DateTimeStyles.None,
+                        out timestamp
+                    );
 
-                    if(rowCount < maxRows)
+                    if (!timestampOk)
                     {
-                        results.Add(new SmartGridSample(timestamp, voltage, current, powerUsage, faultIndicator, frequency));
+                        rejects.Add(line);
+                        continue;
+                    }
+                    //DateTime timestamp = DateTime.ParseExact(columns[0], "yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture);
+                    double voltage = double.Parse(columns[1].Trim(), CultureInfo.InvariantCulture);
+                    double current = double.Parse(columns[2].Trim(), CultureInfo.InvariantCulture);
+                    double powerUsage = double.Parse(columns[3].Trim(), CultureInfo.InvariantCulture);
+                    int faultIndicator = int.Parse(columns[4].Trim(), CultureInfo.InvariantCulture); // int po tvom zahtevu
+                    double frequency = double.Parse(columns[5].Trim(), CultureInfo.InvariantCulture);
+
+
+                    if (rowCount < maxRows)
+                    {
+                        //results.Add(new SmartGridSample(timestamp, voltage, current, powerUsage, faultIndicator, frequency));
+
+                        results.Add(new SmartGridSample(
+                            timestamp,
+                            voltage,
+                            current,
+                            powerUsage,
+                            faultIndicator,
+                            frequency
+                        ));
                         rowCount++;
                     }
                     else
