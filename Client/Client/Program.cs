@@ -58,6 +58,17 @@ namespace Client
                         }
                         System.Threading.Thread.Sleep(500);
                     }
+
+                    if (rejects.Count > 0)
+                    {
+                        Console.WriteLine("Sending rejected lines to server...");
+                        foreach (var reject in rejects)
+                        {
+                            var response = proxy.PushReject(reject);
+                            Console.WriteLine($"Server response: {response}");
+                        }
+                    }
+
                     try
                     {
                         proxy.EndSession();
@@ -69,15 +80,6 @@ namespace Client
                     catch (FaultException<DataFormatFault> dataFormatFault)
                     {
                         Console.WriteLine($"Data format fault on session start: {dataFormatFault.Detail.Message}");
-                    }
-                }
-
-                if(rejects.Count > 0)
-                {
-                    Console.WriteLine("Rejected lines from CSV:");
-                    foreach(var reject in rejects)
-                    {
-                        //Console.WriteLine(reject);
                     }
                 }
 

@@ -21,6 +21,9 @@ namespace Common
         string PushSample(SmartGridSample sample);
 
         [OperationContract]
+        string PushReject(string rawLine);
+
+        [OperationContract]
         string EndSession();
     }
 }

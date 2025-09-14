@@ -57,7 +57,7 @@ namespace Client
             {
                 string[] columns = line.Split(',');
 
-                if (columns.Length < 6)
+                if (columns.Length != 134)
                 {
                     rejects.Add(line);
                     continue;
@@ -85,8 +85,8 @@ namespace Client
                     double voltage = double.Parse(columns[1].Trim(), CultureInfo.InvariantCulture);
                     double current = double.Parse(columns[2].Trim(), CultureInfo.InvariantCulture);
                     double powerUsage = double.Parse(columns[3].Trim(), CultureInfo.InvariantCulture);
-                    int faultIndicator = int.Parse(columns[4].Trim(), CultureInfo.InvariantCulture); // int po tvom zahtevu
-                    double frequency = double.Parse(columns[5].Trim(), CultureInfo.InvariantCulture);
+                    double frequency = double.Parse(columns[4].Trim(), CultureInfo.InvariantCulture);
+                    int faultIndicator = int.Parse(columns[5].Trim(), CultureInfo.InvariantCulture); // int po tvom zahtevu
 
 
                     if (rowCount < maxRows)
@@ -102,6 +102,7 @@ namespace Client
                             frequency
                         ));
                         rowCount++;
+                        Console.WriteLine(results[rowCount-1].Frequency + " " + results[rowCount-1].PowerUsage);
                     }
                     else
                     {

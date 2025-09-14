@@ -21,12 +21,12 @@ namespace Common
 
         public SmartGridSample(DateTime timestamp, double voltage, double current, double powerUsage, int faultIndicator, double frequency)
         {
-            this.timestamp = timestamp;
-            this.voltage = voltage;
-            this.current = current;
-            this.powerUsage = powerUsage;
-            this.faultIndicator = faultIndicator;
-            this.frequency = frequency;
+            this.Timestamp = timestamp;
+            this.Voltage = voltage;
+            this.Current = current;
+            this.PowerUsage = powerUsage;
+            this.FaultIndicator = faultIndicator;
+            this.Frequency = frequency;
         }
 
         [DataMember]

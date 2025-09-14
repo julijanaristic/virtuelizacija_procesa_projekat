@@ -130,12 +130,22 @@ namespace Service
             return "ACK: Session completed";
         }
 
+        public string PushReject(string rawLine)
+        {
+            if (!sessionActive || fileWriter == null)
+                return "NACK: No active session!";
+
+            Console.WriteLine($"[INFO] Reject received from client: {rawLine}");
+            fileWriter.WriteRejects(rawLine);
+            return "ACK: Reject stored";
+        }
+
         private void ValidateSample(SmartGridSample sample)
         {
-            if (sample.Timestamp == default)
+            if (sample.Timestamp.GetDateTimeFormats().Equals("yyyy-MM-dd") )
                 throw new FaultException<ValidationFault>(new ValidationFault("Timestamp is required"), new FaultReason("Validation error"));
 
-            if (sample.Frequency <= 0)
+            if (sample.Frequency < 0)
                 throw new FaultException<ValidationFault>(new ValidationFault("Frequency must be greater than 0!"));
 
             if (sample.Voltage < 0 || sample.Voltage > 1000)
