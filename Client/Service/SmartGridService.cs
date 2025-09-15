@@ -32,6 +32,7 @@ namespace Service
 
         private List<double> currentSample = new List<double>();
         private double previousVoltage = 0;
+        private double previousCurrent = 0;
 
         private bool sessionActive = false;
         private CsvWriter fileWriter;
@@ -83,11 +84,27 @@ namespace Service
                 if (OnSampleReceived != null)
                     OnSampleReceived(sample);
 
-                if(Math.Abs(sample.Voltage - previousVoltage) > V_threshold)
+                if(previousVoltage != 0)
                 {
-                    if (OnWarningRaised != null)
-                        OnWarningRaised("Voltage spike detected", sample);
+                    double deltaV = sample.Voltage - previousVoltage;
+                    if(Math.Abs(deltaV) > V_threshold)
+                    {
+                        string direction = deltaV > 0 ? "above expectations" : "below expectations";
+                        OnWarningRaised?.Invoke($"Voltage spike detected ({direction}), ΔV={deltaV}", sample);
+                    }
                 }
+                previousVoltage = sample.Voltage;
+
+                if(previousCurrent != 0)
+                {
+                    double deltaI = sample.Current - previousCurrent;
+                    if(Math.Abs(deltaI) > I_threshold)
+                    {
+                        string direction = deltaI > 0 ? "above expectations" : "below expectations";
+                        OnWarningRaised?.Invoke($"Current spike detected ({direction}), ΔI={deltaI}", sample);
+                    }
+                }
+                previousCurrent = sample.Current;
 
                 currentSample.Add(sample.Current);
                 double Imean = currentSample.Average();

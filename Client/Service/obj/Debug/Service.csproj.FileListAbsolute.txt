@@ -9,3 +9,14 @@ C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Servic
 C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.exe
 C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.pdb
 C:\Users\Korisnik\OneDrive\Desktop\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.exe.config
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\bin\Debug\Service.exe.config
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\bin\Debug\Service.exe
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\bin\Debug\Service.pdb
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\bin\Debug\Common.dll
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\bin\Debug\Common.pdb
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.csproj.AssemblyReference.cache
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.exe.config
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.csproj.Up2Date
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.exe
+C:\Users\KorisniK\Documents\GitHub\virtuelizacija_procesa_projekat\Client\Service\obj\Debug\Service.pdb
